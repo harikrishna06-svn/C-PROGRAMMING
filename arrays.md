@@ -35,7 +35,7 @@ int main()
 }
 ```
 ## qu4
-```
+``` c
 #include<stdio.h>
 int main()
 {
@@ -48,7 +48,7 @@ return 0;
 }
 ```
 ## qu5
-```
+``` c
 #include<stdio.h>
 int main()
 {
