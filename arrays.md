@@ -35,4 +35,28 @@ int main()
 }
 ```
 ## qu4
+```
+#include<stdio.h>
+int main()
+{
+char var=0x04;
+var=var|0x04;
+printf("%d,",var);
+var|=0x01;
+printf("%d",var);
+return 0;
+}
+```
+## qu5
+```
+#include<stdio.h>
+int main()
+{
+char flag=0x0f;
+flag&=~0x02;
+printf("%d",flag);
+return 0;
+}
+```
+
 
