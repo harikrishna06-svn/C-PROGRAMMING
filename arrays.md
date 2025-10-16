@@ -58,5 +58,15 @@ printf("%d",flag);
 return 0;
 }
 ```
+## qu7
+``` c
+#include<stdio.h>
+int main()
+{
+int x=10;
+x&=~2; 
+printf("x=%d",x);
+}
+```
 
 
