@@ -1,6 +1,5 @@
-```
 ## 1.WRITE A C PROGRAM TO ACCEPT TWO INTEGERS AND CHECK WHETHER THEY ARE EQUAL OR NOT?
-
+``` c
 #include<stdio.h>
 void main()
 {
@@ -14,3 +13,4 @@ void main()
         else
                 printf("a and b are not Equal.\n");
 }
+```
