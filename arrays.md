@@ -68,5 +68,46 @@ x&=~2;
 printf("x=%d",x);
 }
 ```
+##  qu11
+``` c
+#include<stdio.h>
+void main()
+{
+printf("value is =%d",(10++));
+} 
+
+```
+## qu12
+``` c
+#include<stdio.h>
+void main()
+{
+const char var='A';
+++var;
+printf("%c",var);
+}
+```
+## qu13
+``` c
+#include<stdio.h>
+void main()
+{
+int x=10;
+x+=(x++)+(++x)+x;
+printf("%d",x);
+}
+```
+## qu14
+``` c
+#include<stdio.h>
+void main()
+{
+int a=10,b=2,x=0;
+x=a+b*a+10/2*a;
+printf("value is =%d",x);
+}
+```
+## qu15
+
 
 
