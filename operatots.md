@@ -108,6 +108,35 @@ printf("value is =%d",x);
 }
 ```
 ## qu15
+``` c
+#include<stdio.h>
+void main()
+{
+unsigned short var='B';
+var+=2;
+var++;
+printf("var:%c,%d",var,var);
+}
+```
+## qu16
+``` c
+#include<stdio.h>
+void main()
+{
+char var=10;
+printf("var is=%d",++var++);
+}
+```
+## qu17
+``` c
+#include<stdio.h>
+void main()
+{
+int x=(20 ||40)&&(10);
+printf("x=%d",x);
+}
+```
+
 
 
 
