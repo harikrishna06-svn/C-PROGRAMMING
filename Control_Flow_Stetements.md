@@ -71,5 +71,80 @@ void main()
                 printf("candidate is not eligible for vote",\n);
 }
 ```
+## 6
+``` c
+#include<stdio.h>
+void main()
+{
+        int n;
+        printf("Enter Element N : ");
+        scanf("%d",&n);
+        if(n>0)
+                printf("1\n");
+        else
+                printf("2\n");
+}
+```
+## 7
+``` c
+#include<stdio.h>
+void main()
+{
+        int a,b,c;
+        printf("Enter Three Values");
+        scanf("%d%d%d",&a,&b,&c);
+        if(a>b && a>c)
+                printf("A is greater number\n");
+        else if(b>c)
+                printf("B is greater number\n");
+        else
+                printf("C is greater number\n");
+}
+```
+## 8
+``` c
+#include<stdio.h>
+void main()
+{
+        char ch;
+        printf("Enter any element");
+        scanf("%c",&ch);
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+                printf("%c is Vowel\n",ch);
+        else
+                printf("%c is consonat\n",ch);
+}
+```
+## 9
+``` c
+#include<stdio.h>
+void main()
+{
+
+        char ch;
+        printf("Enter any element : ");
+        scanf("%c",&ch);
+        if((ch>64 && ch<91) || (ch>96 && ch<123))
+               printf("%c is a Alphabet\n",ch);
+        else
+                printf("%c is a Non Alphabet\n",ch);
+}
+```
+## 10
+``` c
+#include<stdio.h>
+void main()
+{
+        int a,b;
+        printf("Enter any Number : ");
+        scanf("%d%d",&a,&b);
+        if(a==b)
+                printf("Both are Equal\n");
+        else if(a>b)
+                printf("%d is maximum and %d is minimum\n",a,b);
+        else
+                printf("%d is maximum and %d is minimum\n",b,a);
+}
+```
  
 
