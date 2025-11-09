@@ -136,6 +136,75 @@ int x=(20 ||40)&&(10);
 printf("x=%d",x);
 }
 ```
+## qu18
+``` c
+ #include <stdio.h>
+ void main()
+                                                                                                                     
+{
+ int x;
+ x= (printf("AA")||printf("BB"));
+ printf("%d",x);
+ printf("\n");
+ x= (printf("AA")&& printf("BB"));
+ printf("%d",x);
+ }
+```
+## qu19
+``` c
+ #include <stdio.h>
+ void main()
+ {
+ int a=3,b=2;
+ a=a==b==0;
+ printf("%d,%d",a,b);
+ }
+```
+## qu20
+``` c
+ #include <stdio.h>
+ void main(){
+ int intVar=20,x;
+ x= ++intVar,intVar++,++intVar;
+ printf("Value of intVar=%d, x=%d",intVar,x);
+ }
+ ```
+## qu21
+``` c
+ #include <stdio.h>
+ int main(){
+ char val=250;
+ int  ans;
+ ans= val+ !val + ~val + ++val;
+ printf("%d",ans);
+ return 0;
+ }
+```
+## qu22
+``` c
+ #include<stdio.h>
+  int main()
+  {
+  int a = 10 ;
+  double b = 5.6;
+  int c;
+  c =a+b;
+  printf(“%d” , c);
+  }
+```
+## qu23
+``` c
+ #include <stdio.h>
+ int main(){
+ int x;
+ x=100,30,50;
+ printf("x=%d\n",x);
+ x=(100,30,50);
+ printf("x=%d\n",x);
+ return 0;
+ }
+```
+
 
 
 
